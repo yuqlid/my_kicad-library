@@ -17,6 +17,18 @@ K FT231 UASRT USB serial
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
 $ENDCMP
 #
+$CMP FT232RL
+D Future Technology Devices International Ltd. FT232R USB UART IC
+K FT232R USB UART IC FT231 serial
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+$ENDCMP
+#
+$CMP PSMN1R0-40YLD
+D N-channel 40 V 1.1 mΩ logic level MOSFET in LFPAK56
+K MOSFET Nch LFPAK56
+F http://www.nxp.com/documents/data_sheet/PSMN1R0-40YLD.pdf
+$ENDCMP
+#
 $CMP microSD_Card
 D microSD Card Reader
 K connector microSD hirose hrs

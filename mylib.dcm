@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ACS722
+D High Accuracy, Galvanically Isolated Current Sensor IC 3.3V
+K isolated current sensor 
+$ENDCMP
+#
 $CMP ADuM3223
 D Isolated Precision Half-Bridge Driver 4A Output
 K Isolated Half-Bridger MOSFET Gate Driver 3kV

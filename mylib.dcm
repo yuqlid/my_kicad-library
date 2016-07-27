@@ -1,9 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP ADuM3223
-D Isolated 5 kV DC-to-DC Converter
-K Isolated DC-to-DC Converter 5kV
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
+D Isolated Precision Half-Bridge Driver 4A Output
+K Isolated Half-Bridger MOSFET Gate Driver 3kV
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3223_4223.pdf
 $ENDCMP
 #
 #End Doc Library

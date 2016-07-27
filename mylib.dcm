@@ -6,4 +6,16 @@ K Isolated Half-Bridger MOSFET Gate Driver 3kV
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3223_4223.pdf
 $ENDCMP
 #
+$CMP FT231XS
+D FT231X USB TO FULL HANDSHAKE UART IC
+K FT231 UASRT USB serial
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+$ENDCMP
+#
+$CMP microSD_Card
+D microSD Card Reader
+K connector microSD hirose hrs
+F https://www.hirose.co.jp/cataloge_hp/e60900232.pdf
+$ENDCMP
+#
 #End Doc Library

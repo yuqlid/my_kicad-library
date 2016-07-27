@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADuM3223
+D Isolated 5 kV DC-to-DC Converter
+K Isolated DC-to-DC Converter 5kV
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
+$ENDCMP
+#
 #End Doc Library

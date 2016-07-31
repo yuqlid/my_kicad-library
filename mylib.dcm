@@ -23,6 +23,11 @@ K FT232R USB UART IC FT231 serial
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 $ENDCMP
 #
+$CMP LCD8X2
+D AQM0802A-RN-GBW
+K Generic LCD 8x2 I2C 
+$ENDCMP
+#
 $CMP PSMN1R0-40YLD
 D N-channel 40 V 1.1 mΩ logic level MOSFET in LFPAK56
 K MOSFET Nch LFPAK56

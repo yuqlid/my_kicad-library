@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP A3921
+D Automotive Full Bridge MOSFET Driver
+K MOSFET gate driver full bridge
+$ENDCMP
+#
 $CMP ACS722
 D High Accuracy, Galvanically Isolated Current Sensor IC 3.3V
 K isolated current sensor 
@@ -9,6 +14,12 @@ $CMP ADuM3223
 D Isolated Precision Half-Bridge Driver 4A Output
 K Isolated Half-Bridger MOSFET Gate Driver 3kV
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3223_4223.pdf
+$ENDCMP
+#
+$CMP AM26LV32
+D Low-voltage high-speed quadruple differential line receiver
+K Quad line receiver differential low voltage
+F http://www.tij.co.jp/jp/lit/ds/symlink/am26lv32.pdf
 $ENDCMP
 #
 $CMP FT231XS
@@ -28,10 +39,22 @@ D AQM0802A-RN-GBW
 K Generic LCD 8x2 I2C 
 $ENDCMP
 #
+$CMP MCP16301
+D High-Voltage Input Integrated Switch Step-Down Regulator
+K switch step down regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
+$ENDCMP
+#
 $CMP PSMN1R0-40YLD
 D N-channel 40 V 1.1 mΩ logic level MOSFET in LFPAK56
 K MOSFET Nch LFPAK56
 F http://www.nxp.com/documents/data_sheet/PSMN1R0-40YLD.pdf
+$ENDCMP
+#
+$CMP REF19xx
+D VREF and VREF / 2 Voltage References
+K REF19  Reference Dual-Output  
+F http://www.ti.com/lit/ds/symlink/ref1933.pdf
 $ENDCMP
 #
 $CMP microSD_Card

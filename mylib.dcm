@@ -36,13 +36,13 @@ $ENDCMP
 #
 $CMP HIP2103
 D 60V, 1A/2A Peak, Half Bridge Driver with 4V UVLO
-K Half Bridge Driver MOSFET DC Motor 
+K Half Bridge Driver MOSFET DC Motor
 F http://www.intersil.com/content/dam/Intersil/documents/hip2/hip2103-04.pdf
 $ENDCMP
 #
 $CMP HIP2104
 D 60V, 1A/2A Peak, Half Bridge Driver with 4V UVLO
-K Half Bridge Driver MOSFET DC Motor 
+K Half Bridge Driver MOSFET DC Motor
 F http://www.intersil.com/content/dam/Intersil/documents/hip2/hip2103-04.pdf
 $ENDCMP
 #

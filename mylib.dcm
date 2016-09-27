@@ -69,6 +69,17 @@ K REF19  Reference Dual-Output
 F http://www.ti.com/lit/ds/symlink/ref1933.pdf
 $ENDCMP
 #
+$CMP SKRPACE010
+D Push Button
+K Switch
+F http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRP/SKRP_list.html
+$ENDCMP
+#
+$CMP Tactile_SW_4P
+D Push Button
+K Switch
+$ENDCMP
+#
 $CMP microSD_Card
 D microSD Card Reader
 K connector microSD hirose hrs

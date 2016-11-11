@@ -49,6 +49,7 @@ $ENDCMP
 $CMP LCD8X2
 D AQM0802A-RN-GBW
 K Generic LCD 8x2 I2C
+F http://akizukidenshi.com/download/ds/xiamen/AQM0802.pdf
 $ENDCMP
 #
 $CMP MCP16301

@@ -22,6 +22,12 @@ K Quad line receiver differential low voltage
 F http://www.tij.co.jp/jp/lit/ds/symlink/am26lv32.pdf
 $ENDCMP
 #
+$CMP BSS138PS
+D 60 V, 320 mA dual N-channel Trench MOSFET
+K N-Channel MOSFET Logic Level
+F http://www.nxp.com/documents/data_sheet/BSS138PS.pdf
+$ENDCMP
+#
 $CMP FT231XS
 D FT231X USB TO FULL HANDSHAKE UART IC
 K FT231 UASRT USB serial
@@ -56,6 +62,12 @@ $CMP MCP16301
 D High-Voltage Input Integrated Switch Step-Down Regulator
 K switch step down regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
+$ENDCMP
+#
+$CMP MCP25625-E/SS
+D CAN Controller with Integrated Transceiver
+K CAN SPI transceiver controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005282A.pdf
 $ENDCMP
 #
 $CMP PSMN1R0-40YLD

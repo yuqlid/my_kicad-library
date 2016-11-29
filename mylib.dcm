@@ -88,6 +88,12 @@ K Switch
 F http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRP/SKRP_list.html
 $ENDCMP
 #
+$CMP TXB0108PW
+D TXB0108 8-Bit Bidirectional Voltage-Level Translator with Auto-Direction Sensing and
+K level shift auto bidirectional translator
+F http://www.ti.com/lit/ds/symlink/txb0108.pdf
+$ENDCMP
+#
 $CMP Tactile_SW_4P
 D Push Button
 K Switch

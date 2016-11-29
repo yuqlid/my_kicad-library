@@ -70,6 +70,18 @@ K CAN SPI transceiver controller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005282A.pdf
 $ENDCMP
 #
+$CMP PCA9306
+D Dual bidirectional I2C-bus and SMBus voltage-level translator
+K i2c level shift SMB translator
+F http://dlnmh9ip6v2uc.cloudfront.net/datasheets/BreakoutBoards/PCA9306.pdf
+$ENDCMP
+#
+$CMP PCAL9555APW
+D Low-voltage 16-bit I2C-bus GPIO with Agile I/O, interrupt and weak pull-up
+K i2c GPIO
+F http://cache.nxp.com/documents/data_sheet/PCAL9555A.pdf?pspll=1
+$ENDCMP
+#
 $CMP PSMN1R0-40YLD
 D N-channel 40 V 1.1 mΩ logic level MOSFET in LFPAK56
 K MOSFET Nch LFPAK56

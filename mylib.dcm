@@ -15,6 +15,11 @@ D High Accuracy, Galvanically Isolated Current Sensor IC 3.3V
 K isolated current sensor
 $ENDCMP
 #
+$CMP ACS781
+D High-Precision Linear Hall-Effect-Based Current Sensor IC With 200 µΩ Current Conductor
+K isolated current sensor
+$ENDCMP
+#
 $CMP ADuM3223
 D Isolated Precision Half-Bridge Driver 4A Output
 K Isolated Half-Bridger MOSFET Gate Driver 3kV

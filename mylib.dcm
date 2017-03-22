@@ -74,6 +74,11 @@ K switch step down regulator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
 $ENDCMP
 #
+$CMP MCP16331
+D High-Voltage Input Integrated Switch Step-Down Regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005308B.pdf
+$ENDCMP
+#
 $CMP MCP25625-E/SS
 D CAN Controller with Integrated Transceiver
 K CAN SPI transceiver controller

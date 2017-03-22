@@ -5,6 +5,11 @@ D Automotive Full Bridge MOSFET Driver
 K MOSFET gate driver full bridge
 $ENDCMP
 #
+$CMP A4957
+D Full-Bridge PWM Gate Driver
+K MOSFET gate driver full bridge
+$ENDCMP
+#
 $CMP ACS711
 D Hall Effect Linear Current Sensor with Overcurrent Fault Output for <100 V Isolation Applications
 K isolated current sensor

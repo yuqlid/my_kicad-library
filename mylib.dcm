@@ -115,7 +115,7 @@ K REF19  Reference Dual-Output
 F http://www.ti.com/lit/ds/symlink/ref1933.pdf
 $ENDCMP
 #
-$CMP RJ45-TRANSFO
+$CMP RJ45-PULSETRANS
 D RJ45 with transformer + leds Pulse
 K RJ45
 F http://productfinder.pulseeng.com/files/datasheets/J403.pdf

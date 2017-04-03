@@ -43,6 +43,12 @@ K N-Channel MOSFET Logic Level
 F http://www.nxp.com/documents/data_sheet/BSS138PS.pdf
 $ENDCMP
 #
+$CMP DRV8323RH
+D Three-Phase Smart Gate Driver
+K Gate Drive BLDC Motor Tree Phase Current Sense Back Regulator
+F http://www.tij.co.jp/product/jp/drv8323r
+$ENDCMP
+#
 $CMP EMI_Filter_Common_Mode
 D EMI 2-inductor common-mode-filter
 K EMI common mode filter

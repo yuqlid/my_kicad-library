@@ -43,6 +43,11 @@ K N-Channel MOSFET Logic Level
 F http://www.nxp.com/documents/data_sheet/BSS138PS.pdf
 $ENDCMP
 #
+$CMP EMI_Filter_Common_Mode
+D EMI 2-inductor common-mode-filter
+K EMI common mode filter
+$ENDCMP
+#
 $CMP FT231XS
 D FT231X USB TO FULL HANDSHAKE UART IC
 K FT231 UASRT USB serial

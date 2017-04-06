@@ -25,6 +25,24 @@ D High-Precision Linear Hall-Effect-Based Current Sensor IC With 200 µΩ Curren
 K isolated current sensor
 $ENDCMP
 #
+$CMP ADM2682E
+D 5 kV rms Signal and Power Isolated RS-485 Transceiver with ±15 kV ESD Protection
+K rs485 isolate transceiver esd single power
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM2682E_2687E.pdf
+$ENDCMP
+#
+$CMP ADM3052
+D Isolated CAN Transceiver with Integrated High Voltage, Bus-Side, Linear Regulator
+K isolate can transceiver linera regulator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM3052.pdf
+$ENDCMP
+#
+$CMP ADM3054
+D 5 kV rms Signal Isolated High Speed CAN Transceiver with Bus Protection
+K can transceiver isolate
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM3054.pdf
+$ENDCMP
+#
 $CMP ADuM3223
 D Isolated Precision Half-Bridge Driver 4A Output
 K Isolated Half-Bridger MOSFET Gate Driver 3kV

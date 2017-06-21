@@ -108,6 +108,12 @@ K Generic LCD 8x2 I2C
 F http://akizukidenshi.com/download/ds/xiamen/AQM0802.pdf
 $ENDCMP
 #
+$CMP MAU10x
+D 1W, Miniature SIP, Single & Dual Output DC/DC Converters
+K isolate dcdc converter minimax
+F http://www.op316.com/tubes/datalib/image/mau100.pdf
+$ENDCMP
+#
 $CMP MCP16301
 D High-Voltage Input Integrated Switch Step-Down Regulator
 K switch step down regulator

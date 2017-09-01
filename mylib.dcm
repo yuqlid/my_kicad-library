@@ -150,6 +150,12 @@ K MOSFET Nch LFPAK56
 F http://www.nxp.com/documents/data_sheet/PSMN1R0-40YLD.pdf
 $ENDCMP
 #
+$CMP PSMN3R9-25MLC
+D N-channel 25 V 4.15 mΩ logic level MOSFET in LFPAK33
+K MOSFET Nch LFPAK33
+F https://assets.nexperia.com/documents/data-sheet/PSMN3R9-25MLC.pdf
+$ENDCMP
+#
 $CMP REF19xx
 D VREF and VREF / 2 Voltage References
 K REF19  Reference Dual-Output

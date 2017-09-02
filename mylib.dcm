@@ -43,6 +43,12 @@ K can transceiver isolate
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM3054.pdf
 $ENDCMP
 #
+$CMP ADM485x
+D RS485/RS422 transceiver, half duplex, receiver/driver enable
+K RS485 RS422 transceiver half duplex
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM4850_4851_4852_4853_4854_4855_4856_4857.pdf
+$ENDCMP
+#
 $CMP ADuM3223
 D Isolated Precision Half-Bridge Driver 4A Output
 K Isolated Half-Bridger MOSFET Gate Driver 3kV

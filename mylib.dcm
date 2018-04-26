@@ -192,6 +192,11 @@ K ARM Cortex-M0 STM32F0 STM32F0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
 $ENDCMP
 #
+$CMP TMPM370FYFG
+D MCU Cortex-M3 80MHz 256K Flash LQFP100 Toshiba TMPM370FYFG, 32bit ARM Cortex M3 Microcontroller, 80MHz, 256 kB Flash, 100-Pin LQFP
+F http://uk.rs-online.com/web/p/products/7510793P
+$ENDCMP
+#
 $CMP TXB0108PW
 D TXB0108 8-Bit Bidirectional Voltage-Level Translator with Auto-Direction Sensing and
 K level shift auto bidirectional translator

@@ -138,6 +138,24 @@ K CAN SPI transceiver controller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005282A.pdf
 $ENDCMP
 #
+$CMP NC7SZ08
+D NC7SZ08 Two-inpu AND Gate
+K and gate
+F https://www.fairchildsemi.com/datasheets/NC/NC7SZ08.pdf
+$ENDCMP
+#
+$CMP NC7WZ241
+D NC7WZ241
+K Dual Buffer with 3-STATE Outputs
+F https://www.fairchildsemi.com/datasheets/NC/NC7WZ241.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-5/1.5-W36-C
+D  Non-Isolated Switching Regulator DC-DC
+K Non-Isolated Switching Regulator DC-DC
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
 $CMP PCA9306
 D Dual bidirectional I2C-bus and SMBus voltage-level translator
 K i2c level shift SMB translator

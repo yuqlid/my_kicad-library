@@ -102,6 +102,12 @@ K Half Bridge Driver MOSFET DC Motor
 F http://www.intersil.com/content/dam/Intersil/documents/hip2/hip2103-04.pdf
 $ENDCMP
 #
+$CMP LAN8742A
+D LAN8742A Ethernet PHY with RMII interface
+K ETH PHY RMII
+F http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf
+$ENDCMP
+#
 $CMP LAN9252
 D 2/3-Port EtherCAT® Slave Controller with
 K EtherCAT PHY
@@ -127,12 +133,6 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
 $ENDCMP
 #
 $CMP MCP16331
-D High-Voltage Input Integrated Switch Step-Down Regulator
-K switch step down regulator
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20005308B.pdf
-$ENDCMP
-#
-$CMP MCP25625-E/SS
 D CAN Controller with Integrated Transceiver
 K CAN SPI transceiver controller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005282A.pdf
@@ -145,12 +145,6 @@ F https://www.fairchildsemi.com/datasheets/NC/NC7SZ08.pdf
 $ENDCMP
 #
 $CMP NC7WZ241
-D NC7WZ241
-K Dual Buffer with 3-STATE Outputs
-F https://www.fairchildsemi.com/datasheets/NC/NC7WZ241.pdf
-$ENDCMP
-#
-$CMP OKI-78SR-5/1.5-W36-C
 D  Non-Isolated Switching Regulator DC-DC
 K Non-Isolated Switching Regulator DC-DC
 F https://power.murata.com/data/power/oki-78sr.pdf

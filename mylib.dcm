@@ -226,6 +226,12 @@ D Push Button
 K Switch
 $ENDCMP
 #
+$CMP USBLC6-4SC6
+D Bidirectional ESD Protection Diode, SOT-23-6
+K usb ethernet
+F https://www.st.com/resource/en/datasheet/usblc6-4.pdf
+$ENDCMP
+#
 $CMP microSD_Card
 D microSD Card Reader
 K connector microSD hirose hrs

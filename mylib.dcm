@@ -210,6 +210,12 @@ K ARM Cortex-M7 STM32H7 STM32H743
 F https://www.st.com/resource/en/datasheet/stm32h743vi.pdf
 $ENDCMP
 #
+$CMP STMPS2141STR
+D Enhanced single channel power switches, SOT-23-5
+K LDO Regulator Fixed Positive 500/1000 mA continuous current
+F https://www.st.com/resource/en/datasheet/stmps2141.pdf
+$ENDCMP
+#
 $CMP TMPM370FYFG
 D MCU Cortex-M3 80MHz 256K Flash LQFP100 Toshiba TMPM370FYFG, 32bit ARM Cortex M3 Microcontroller, 80MHz, 256 kB Flash, 100-Pin LQFP
 F http://uk.rs-online.com/web/p/products/7510793P

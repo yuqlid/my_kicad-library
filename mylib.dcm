@@ -78,6 +78,30 @@ D EMI 2-inductor common-mode-filter
 K EMI common mode filter
 $ENDCMP
 #
+$CMP ESDCAN02-2BWY
+D Automotive dual-line Transil™, transient voltage suppressor
+K can esd protection suppression transient 26.5V
+F https://www.st.com/resource/en/datasheet/DM00170179.pdf
+$ENDCMP
+#
+$CMP ESDCAN03-2BWY
+D Automotive dual-line Transil™, transient voltage suppressor
+K can esd protection suppression transient 24V
+F https://www.st.com/resource/en/datasheet/DM00170179.pdf
+$ENDCMP
+#
+$CMP ESDCAN05-2BWY
+D Automotive dual-line Transil™, transient voltage suppressor
+K can esd protection suppression transient 36V
+F https://www.st.com/resource/en/datasheet/DM00170179.pdf
+$ENDCMP
+#
+$CMP ESDCAN06-2BWY
+D Automotive dual-line Transil™, transient voltage suppressor
+K can esd protection suppression transient 35V
+F https://www.st.com/resource/en/datasheet/DM00170179.pdf
+$ENDCMP
+#
 $CMP FT231XS
 D FT231X USB TO FULL HANDSHAKE UART IC
 K FT231 UASRT USB serial

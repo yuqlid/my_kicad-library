@@ -126,6 +126,12 @@ K Half Bridge Driver MOSFET DC Motor
 F http://www.intersil.com/content/dam/Intersil/documents/hip2/hip2103-04.pdf
 $ENDCMP
 #
+$CMP ICM-20948
+D InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI
+K mems magnetometer
+F http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf
+$ENDCMP
+#
 $CMP LAN8742A
 D LAN8742A Ethernet PHY with RMII interface
 K ETH PHY RMII

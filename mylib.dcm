@@ -180,6 +180,11 @@ K Non-Isolated Switching Regulator DC-DC
 F https://power.murata.com/data/power/oki-78sr.pdf
 $ENDCMP
 #
+$CMP OKI-78SR-12_1.0-W36-C
+D Non-Isolated Switching Regulator DC-DC
+F https://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
 $CMP PCA9306
 D Dual bidirectional I2C-bus and SMBus voltage-level translator
 K i2c level shift SMB translator

@@ -180,6 +180,18 @@ K Non-Isolated Switching Regulator DC-DC
 F https://power.murata.com/data/power/oki-78sr.pdf
 $ENDCMP
 #
+$CMP NVT2006BQ
+D Bidirectional voltage-level translator for open-drain and push-pull applications
+K bidirectional voltage level translator
+F https://www.nxp.com/docs/en/data-sheet/NVT2003_04_06.pdf
+$ENDCMP
+#
+$CMP NVT2006PW
+D Bidirectional voltage-level translator for open-drain and push-pull applications
+K bidirectional voltage level translator
+F https://www.nxp.com/docs/en/data-sheet/NVT2003_04_06.pdf
+$ENDCMP
+#
 $CMP OKI-78SR-12_1.0-W36-C
 D Non-Isolated Switching Regulator DC-DC
 F https://power.murata.com/data/power/oki-78sr.pdf

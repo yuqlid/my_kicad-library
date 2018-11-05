@@ -280,6 +280,12 @@ D MCU Cortex-M3 80MHz 256K Flash LQFP100 Toshiba TMPM370FYFG, 32bit ARM Cortex M
 F http://uk.rs-online.com/web/p/products/7510793P
 $ENDCMP
 #
+$CMP TPS54531
+D 5A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps54531.pdf
+$ENDCMP
+#
 $CMP TXB0108PW
 D TXB0108 8-Bit Bidirectional Voltage-Level Translator with Auto-Direction Sensing and
 K level shift auto bidirectional translator

@@ -233,6 +233,18 @@ K RJ45
 F http://productfinder.pulseeng.com/files/datasheets/J403.pdf
 $ENDCMP
 #
+$CMP RT8279
+D 5A, 36V, 500kHz Step-Down Converter
+K DCDC 5A Step-Down Converter
+F https://www.richtek.com/assets/product_file/RT8279/DS8279-01.pdf
+$ENDCMP
+#
+$CMP RT8289
+D 5A, 32V, 500kHz Step-Down Converter
+K DCDC 5A Step-Down Converter
+F https://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf
+$ENDCMP
+#
 $CMP SKRPACE010
 D Push Button
 K Switch

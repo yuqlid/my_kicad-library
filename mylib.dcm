@@ -227,6 +227,12 @@ K REF19  Reference Dual-Output
 F http://www.ti.com/lit/ds/symlink/ref1933.pdf
 $ENDCMP
 #
+$CMP RFM-0505S
+D 1W, Miniature SIP, Single & Dual Output DC/DC Converters
+K isolate dcdc converter minimax
+F http://www.op316.com/tubes/datalib/image/mau100.pdf
+$ENDCMP
+#
 $CMP RJ45-PULSETRANS
 D RJ45 with transformer + leds Pulse
 K RJ45

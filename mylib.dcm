@@ -73,6 +73,11 @@ K Gate Drive BLDC Motor Tree Phase Current Sense Back Regulator
 F http://www.tij.co.jp/product/jp/drv8323r
 $ENDCMP
 #
+$CMP DRV8323RS
+D 6 to 60-V Three-Phase Smart Gate Driver with Back Regulator, SPI Mode Control
+K Gate Drive BLDC Motor Tree Phase Current Sense Back Regulator spi
+$ENDCMP
+#
 $CMP EMI_Filter_Common_Mode
 D EMI 2-inductor common-mode-filter
 K EMI common mode filter

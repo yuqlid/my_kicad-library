@@ -78,6 +78,12 @@ D 6 to 60-V Three-Phase Smart Gate Driver with Back Regulator, SPI Mode Control
 K Gate Drive BLDC Motor Tree Phase Current Sense Back Regulator spi
 $ENDCMP
 #
+$CMP DRV8353RS
+D 9 to 100-V Three-Phase Smart Gate Driver with Back Regulator, SPI Mode Control
+K Gate Drive BLDC Motor Tree Phase Current Sense Back Regulator spi
+F http://www.ti.com/jp/lit/ds/symlink/drv8353.pdf
+$ENDCMP
+#
 $CMP EMI_Filter_Common_Mode
 D EMI 2-inductor common-mode-filter
 K EMI common mode filter

@@ -167,6 +167,12 @@ K current monitor shunt sensor bidirectional
 F http://www.ti.com/lit/ds/symlink/ina180.pdf
 $ENDCMP
 #
+$CMP ISL83491
+D 3.3V, Low Power, High Speed or Slew Rate Limited, RS-485/RS-422 Transceiversr, SOIC-14
+K RS485 RS422 transceiver full duplex
+F https://www.renesas.com/us/en/www/doc/datasheet/isl83483-85-88-90-91.pdf
+$ENDCMP
+#
 $CMP LAN8742A
 D LAN8742A Ethernet PHY with RMII interface
 K ETH PHY RMII
@@ -311,6 +317,18 @@ $CMP SKRPACE010
 D Push Button
 K Switch
 F http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRP/SKRP_list.html
+$ENDCMP
+#
+$CMP ST485BDR
+D 5V  Half-Duplex RS-485 Transceiver 2.5Mbps, SOIC-8
+K Half-Duplex RS-485 Transceiver 2.5Mbps
+F https://www.st.com/resource/en/datasheet/st485b.pdf
+$ENDCMP
+#
+$CMP ST485CDR
+D 5V  Half-Duplex RS-485 Transceiver 2.5Mbps, SOIC-8
+K Half-Duplex RS-485 Transceiver 2.5Mbps
+F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
 $CMP ST490AB

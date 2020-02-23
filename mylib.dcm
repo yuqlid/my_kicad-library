@@ -131,6 +131,12 @@ K FT232R USB UART IC FT231 serial
 F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 $ENDCMP
 #
+$CMP FT234XD
+D Full Speed USB to UART Bridge, DFN-12
+K FTDI USB AURT Interface Converter
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT234XD.pdf
+$ENDCMP
+#
 $CMP HIP2103
 D 60V, 1A/2A Peak, Half Bridge Driver with 4V UVLO
 K Half Bridge Driver MOSFET DC Motor
@@ -149,6 +155,18 @@ K mems magnetometer
 F http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf
 $ENDCMP
 #
+$CMP INA180A
+D Unidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-5
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina180.pdf
+$ENDCMP
+#
+$CMP INA180B
+D Unidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SOT-23-5
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina180.pdf
+$ENDCMP
+#
 $CMP LAN8742A
 D LAN8742A Ethernet PHY with RMII interface
 K ETH PHY RMII
@@ -165,6 +183,21 @@ $CMP LCD8X2
 D AQM0802A-RN-GBW
 K Generic LCD 8x2 I2C
 F http://akizukidenshi.com/download/ds/xiamen/AQM0802.pdf
+$ENDCMP
+#
+$CMP M78AR033-1
+D 1.0A Step-Down DC/DC-Regulator, 6.5-32V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C,
+K dc-dc murata Step-Down DC/DC-Regulator
+$ENDCMP
+#
+$CMP M78AR05-1
+D 1.0A Step-Down DC/DC-Regulator, 6.5-32V input, 5.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C,
+K dc-dc murata Step-Down DC/DC-Regulator
+$ENDCMP
+#
+$CMP M78AR12-1
+D 1.0A Step-Down DC/DC-Regulator, 15-32V input, 5.0V fixed Output Voltage, LM78xx replacement, -40°C to +85°C,
+K dc-dc murata Step-Down DC/DC-Regulator
 $ENDCMP
 #
 $CMP MAU10x
@@ -226,6 +259,12 @@ K i2c GPIO
 F http://cache.nxp.com/documents/data_sheet/PCAL9555A.pdf?pspll=1
 $ENDCMP
 #
+$CMP PQME1-M
+D 1W, Miniature SIP, Single & Dual Output DC/DC Converters
+K isolate dcdc converter minimax
+F http://www.op316.com/tubes/datalib/image/mau100.pdf
+$ENDCMP
+#
 $CMP PSMN1R0-40YLD
 D N-channel 40 V 1.1 mΩ logic level MOSFET in LFPAK56
 K MOSFET Nch LFPAK56
@@ -272,6 +311,12 @@ $CMP SKRPACE010
 D Push Button
 K Switch
 F http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRP/SKRP_list.html
+$ENDCMP
+#
+$CMP ST490AB
+D Low power high speed
+K rs422 rs485 tranciever
+F https://www.st.com/resource/en/datasheet/st490ab.pdf
 $ENDCMP
 #
 $CMP STM32F042G4Ux
@@ -323,6 +368,12 @@ $ENDCMP
 $CMP Tactile_SW_4P
 D Push Button
 K Switch
+$ENDCMP
+#
+$CMP Thermocouple_PCB
+D Thermocouple pcb mount
+K thermocouple temperature sensor cold junction omega
+F ~
 $ENDCMP
 #
 $CMP USBLC6-4SC6

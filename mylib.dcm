@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1.5KExxA
+D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
+K diode TVS voltage suppressor
+F https://www.vishay.com/docs/88301/15ke.pdf
+$ENDCMP
+#
+$CMP 1N62xxA
+D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
+K diode TVS voltage suppressor
+F https://www.vishay.com/docs/88301/15ke.pdf
+$ENDCMP
+#
+$CMP 1N630xA
+D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
+K diode TVS voltage suppressor
+F https://www.vishay.com/docs/88301/15ke.pdf
+$ENDCMP
+#
 $CMP A3921
 D Automotive Full Bridge MOSFET Driver
 K MOSFET gate driver full bridge
@@ -55,16 +73,51 @@ K Isolated Half-Bridger MOSFET Gate Driver 3kV
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM3223_4223.pdf
 $ENDCMP
 #
+$CMP AK7454
+D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-24
+K sensor magnetic hall position rotation spi
+$ENDCMP
+#
+$CMP AM26LS32AC
+D high-speed quadruple differential line receiver
+K Quad line receiver differential low voltage
+F http://www.ti.com/jp/lit/ds/symlink/am26ls32ac.pdf
+$ENDCMP
+#
 $CMP AM26LV32
 D Low-voltage high-speed quadruple differential line receiver
 K Quad line receiver differential low voltage
 F http://www.tij.co.jp/jp/lit/ds/symlink/am26lv32.pdf
 $ENDCMP
 #
+$CMP BQ34Z100
+D single 2-4Cell 4> Li-Ion Charge Management IC, HTSSOP-14
+K single 2-4Cell multi  Li-Ion Charge
+F http://www.ti.com/lit/ds/symlink/bq34z100.pdf
+$ENDCMP
+#
+$CMP BQ34Z100-G1
+D single 2-4Cell 4> Li-Ion Charge Management IC, HTSSOP-14
+K single 2-4Cell multi  Li-Ion Charge
+F http://www.ti.com/lit/ds/symlink/bq34z100-g1.pdf
+$ENDCMP
+#
 $CMP BSS138PS
 D 60 V, 320 mA dual N-channel Trench MOSFET
 K N-Channel MOSFET Logic Level
 F http://www.nxp.com/documents/data_sheet/BSS138PS.pdf
+$ENDCMP
+#
+$CMP CSD88599Q5DC
+D 30A Id, 60V Vds, NexFET N-Channel Power MOSFET Block, 2.1mOhm Ron, Qg (typ) 27nC, 22-VSON-CLIP 5x6mm
+K NexFET Power MOSFET N-MOS
+F http://www.tij.co.jp/jp/lit/gpn/CSD88599Q5DC
+$ENDCMP
+#
+$CMP DRV8320RS
+D 6 to 60-V Three-Phase Smart Gate Driver with Back Regulator, SPI Mode Control
+K Gate Drive BLDC Motor Tree Phase Back Regulator spi
+F http://www.ti.com/lit/ds/symlink/drv8323r.pdf?ts=1587886733821
 $ENDCMP
 #
 $CMP DRV8323RH
@@ -212,6 +265,12 @@ K isolate dcdc converter minimax
 F http://www.op316.com/tubes/datalib/image/mau100.pdf
 $ENDCMP
 #
+$CMP MAX17501
+D 4.5V–60V, 500mA, High-Efficiency, Synchronous Step-Down DC-DC Converter with Internal Compensation, DFN-10
+K Step-down dc-dc switching regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
 $CMP MCP16301
 D High-Voltage Input Integrated Switch Step-Down Regulator
 K switch step down regulator
@@ -349,9 +408,45 @@ K ARM Cortex-M0 STM32F0 STM32F0x2
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf
 $ENDCMP
 #
+$CMP STM32G431C6Ux
+D ARM Cortex-M4 MCU, 32KB flash, 32KB RAM, 170MHz, 1.7-3.6V, 42 GPIO, UFQFPN-48
+K ARM Cortex-M4 STM32G4 STM32G4x1
+F https://www.st.com/resource/en/datasheet/stm32g431c6.pdf
+$ENDCMP
+#
+$CMP STM32G431C8Ux
+D ARM Cortex-M4 MCU, 64KB flash, 32KB RAM, 170MHz, 1.7-3.6V, 42 GPIO, UFQFPN-48
+K ARM Cortex-M4 STM32G4 STM32G4x1
+F https://www.st.com/resource/en/datasheet/stm32g431c6.pdf
+$ENDCMP
+#
+$CMP STM32G431CBUx
+D ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 170MHz, 1.7-3.6V, 42 GPIO, UFQFPN-48
+K ARM Cortex-M4 STM32G4 STM32G4x1
+F https://www.st.com/resource/en/datasheet/stm32g431c6.pdf
+$ENDCMP
+#
 $CMP STM32G473CEUx
 D ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 170MHz, 1.7-3.6V, 42 GPIO, UFQFPN-48
 K ARM Cortex-M4 STM32G4 STM32G4x3
+$ENDCMP
+#
+$CMP STM32G474CBUx
+D ARM Cortex-M4 MCU, 128KB flash, 128KB RAM, 170MHz, 1.7-3.6V, 42 GPIO, UFQFPN-48
+K ARM Cortex-M4 STM32G4 STM32G4x4
+F https://www.st.com/resource/en/datasheet/stm32g474cb.pdf
+$ENDCMP
+#
+$CMP STM32G474CCUx
+D ARM Cortex-M4 MCU, 256KB flash, 128KB RAM, 170MHz, 1.7-3.6V, 42 GPIO, UFQFPN-48
+K ARM Cortex-M4 STM32G4 STM32G4x4
+F https://www.st.com/resource/en/datasheet/stm32g431c6.pdf
+$ENDCMP
+#
+$CMP STM32G474CEUx
+D ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 170MHz, 1.7-3.6V, 42 GPIO, UFQFPN-48
+K ARM Cortex-M4 STM32G4 STM32G4x4
+F https://www.st.com/resource/en/datasheet/stm32g431c6.pdf
 $ENDCMP
 #
 $CMP STM32H743VITx

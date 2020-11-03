@@ -330,6 +330,12 @@ D Non-Isolated Switching Regulator DC-DC
 F https://power.murata.com/data/power/oki-78sr.pdf
 $ENDCMP
 #
+$CMP PAC5527
+D 48 V BLDC Motor Controller and Driver
+K 48 V BLDC Motor Controller and Driver
+F https://www.qorvo.com/products/p/PAC5527
+$ENDCMP
+#
 $CMP PCA9306
 D Dual bidirectional I2C-bus and SMBus voltage-level translator
 K i2c level shift SMB translator

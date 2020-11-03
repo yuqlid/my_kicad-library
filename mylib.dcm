@@ -265,6 +265,18 @@ D 1.0A Step-Down DC/DC-Regulator, 15-32V input, 5.0V fixed Output Voltage, LM78x
 K dc-dc murata Step-Down DC/DC-Regulator
 $ENDCMP
 #
+$CMP MA702
+D Magnetic rotary angle sensor, 12-bit, SPI interface, ABZ, PWM, QFN-16
+K sensor magnetic hall position rotation spi
+F https://www.monolithicpower.com/jp/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MA702/document_id/3561/
+$ENDCMP
+#
+$CMP MA732
+D Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16
+K sensor magnetic hall position rotation spi
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MA732/document_id/5009/
+$ENDCMP
+#
 $CMP MAU10x
 D 1W, Miniature SIP, Single & Dual Output DC/DC Converters
 K isolate dcdc converter minimax

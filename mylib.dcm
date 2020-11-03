@@ -108,6 +108,12 @@ K N-Channel MOSFET Logic Level
 F http://www.nxp.com/documents/data_sheet/BSS138PS.pdf
 $ENDCMP
 #
+$CMP CSD88584Q5DC
+D 35A Id, 40V Vds, NexFET N-Channel Power MOSFET Block, 0.95mOhm Ron, Qg (typ) 88nC, 22-VSON-CLIP 5x6mm
+K NexFET Power MOSFET N-MOS
+F http://www.tij.co.jp/jp/lit/ds/symlink/csd88584q5dc.pdf
+$ENDCMP
+#
 $CMP CSD88599Q5DC
 D 30A Id, 60V Vds, NexFET N-Channel Power MOSFET Block, 2.1mOhm Ron, Qg (typ) 27nC, 22-VSON-CLIP 5x6mm
 K NexFET Power MOSFET N-MOS

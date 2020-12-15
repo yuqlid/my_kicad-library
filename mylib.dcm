@@ -90,6 +90,12 @@ K Quad line receiver differential low voltage
 F http://www.tij.co.jp/jp/lit/ds/symlink/am26lv32.pdf
 $ENDCMP
 #
+$CMP ASDDV
+D CMOS Crystal Oscillator
+K Crystal Clock Oscillator
+F https://abracon.com/datasheets/ASDDV.pdf
+$ENDCMP
+#
 $CMP BQ34Z100
 D single 2-4Cell 4> Li-Ion Charge Management IC, HTSSOP-14
 K single 2-4Cell multi  Li-Ion Charge

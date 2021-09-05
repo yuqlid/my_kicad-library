@@ -18,6 +18,12 @@ K diode TVS voltage suppressor
 F https://www.vishay.com/docs/88301/15ke.pdf
 $ENDCMP
 #
+$CMP 74LVC1G3157
+D SPDT Analog Swich, Low-Voltage CMOS
+K SPDT Analog Switch CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
 $CMP A3921
 D Automotive Full Bridge MOSFET Driver
 K MOSFET gate driver full bridge
@@ -108,10 +114,28 @@ K single 2-4Cell multi  Li-Ion Charge
 F http://www.ti.com/lit/ds/symlink/bq34z100-g1.pdf
 $ENDCMP
 #
+$CMP BQ78350
+D Lithium battery fuel gauge, companion controller for BQ769x0
+K lithium battery
+F http://www.ti.com/lit/ds/symlink/bq78350.pdf
+$ENDCMP
+#
 $CMP BSS138PS
 D 60 V, 320 mA dual N-channel Trench MOSFET
 K N-Channel MOSFET Logic Level
 F http://www.nxp.com/documents/data_sheet/BSS138PS.pdf
+$ENDCMP
+#
+$CMP CD74AC08
+D QUADRUPLE 2-INPUT POSITIVE-AND GATES
+K quad and2
+F https://www.ti.com/lit/gpn/CD74AC08
+$ENDCMP
+#
+$CMP CD74AC32
+D Quad 2-Input OR Gates
+K TTL Or2
+F https://www.ti.com/lit/gpn/CD74AC32
 $ENDCMP
 #
 $CMP CSD88584Q5DC
@@ -153,6 +177,18 @@ $CMP DRV8353RS
 D 9 to 100-V Three-Phase Smart Gate Driver with Back Regulator, SPI Mode Control
 K Gate Drive BLDC Motor Tree Phase Current Sense Back Regulator spi
 F http://www.ti.com/jp/lit/ds/symlink/drv8353.pdf
+$ENDCMP
+#
+$CMP D_Schottky
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP D_TVS_Uni
+D Unidirectional transient-voltage-suppression diode
+K diode TVS thyrector
+F ~
 $ENDCMP
 #
 $CMP EMI_Filter_Common_Mode
@@ -238,6 +274,24 @@ K RS485 RS422 transceiver full duplex
 F https://www.renesas.com/us/en/www/doc/datasheet/isl83483-85-88-90-91.pdf
 $ENDCMP
 #
+$CMP ITV4030
+D Fuse
+K fuse
+F ~
+$ENDCMP
+#
+$CMP ITV5432
+D Fuse
+K fuse
+F ~
+$ENDCMP
+#
+$CMP ITV9550
+D Fuse
+K fuse
+F ~
+$ENDCMP
+#
 $CMP LAN8742A
 D LAN8742A Ethernet PHY with RMII interface
 K ETH PHY RMII
@@ -293,6 +347,18 @@ $CMP MAX17501
 D 4.5V–60V, 500mA, High-Efficiency, Synchronous Step-Down DC-DC Converter with Internal Compensation, DFN-10
 K Step-down dc-dc switching regulator
 F https://datasheets.maximintegrated.com/en/ds/MAX17501.pdf
+$ENDCMP
+#
+$CMP MAX6415
+D Low-Power, Single/Dual-Voltage μP Reset Circuits with Capacitor-Adjustable Reset Timeout Delay
+K reset curcuit
+F https://datasheets.maximintegrated.com/en/ds/MAX6412-MAX6420.pdf
+$ENDCMP
+#
+$CMP MAX6418
+D Low-Power, Single/Dual-Voltage μP Reset Circuits with Capacitor-Adjustable Reset Timeout Delay
+K reset curcuit
+F https://datasheets.maximintegrated.com/en/ds/MAX6412-MAX6420.pdf
 $ENDCMP
 #
 $CMP MCP16301
@@ -366,6 +432,12 @@ K MOSFET Nch LFPAK56
 F http://www.nxp.com/documents/data_sheet/PSMN1R0-40YLD.pdf
 $ENDCMP
 #
+$CMP PSMN1R6-30MLH
+D 160A Id, 30V Vds, N-Channel TrenchMOS MOSFET, 1.9mOhm Ron, 7nC Qqd, -55 to 175 °C, LFPAK33
+K Power MOSFET N-MOS
+F https://assets.nexperia.com/documents/data-sheet/PSMN1R6-30MLH.pdf
+$ENDCMP
+#
 $CMP PSMN3R9-25MLC
 D N-channel 25 V 4.15 mΩ logic level MOSFET in LFPAK33
 K MOSFET Nch LFPAK33
@@ -406,6 +478,12 @@ $CMP SKRPACE010
 D Push Button
 K Switch
 F http://www.alps.com/prod/info/J/HTML/Tact/SurfaceMount/SKRP/SKRP_list.html
+$ENDCMP
+#
+$CMP SN74LVC1G32
+D OR Gate, Low-Voltage CMOS
+K Gate OR LVC CMOS
+F https://www.ti.com/lit/gpn/sn74lvc1g32
 $ENDCMP
 #
 $CMP ST485BDR
@@ -491,9 +569,33 @@ K LDO Regulator Fixed Positive 500/1000 mA continuous current
 F https://www.st.com/resource/en/datasheet/stmps2141.pdf
 $ENDCMP
 #
+$CMP TLV7011
+D Single, 1.6V-6.5V, 5uA Quiescent, Push-Pull Output, Comparator, SOT-23-5/SC-70
+K cmp collector
+F https://www.tij.co.jp/lit/gpn/tlv7011
+$ENDCMP
+#
+$CMP TLV7021DCKT
+D Single, 1.6V-6.5V, 5uA Quiescent, Open-Drainl Output, Comparator, SOT-23-5/SC-70
+K cmp collector
+F https://www.tij.co.jp/lit/gpn/tlv7011
+$ENDCMP
+#
 $CMP TMPM370FYFG
 D MCU Cortex-M3 80MHz 256K Flash LQFP100 Toshiba TMPM370FYFG, 32bit ARM Cortex M3 Microcontroller, 80MHz, 256 kB Flash, 100-Pin LQFP
 F http://uk.rs-online.com/web/p/products/7510793P
+$ENDCMP
+#
+$CMP TPS2112
+D AUTOSWITCHING POWER MUX
+K AUTOSWITCHING POWER MUX
+F https://www.tij.co.jp/jp/lit/gpn/tps2113
+$ENDCMP
+#
+$CMP TPS2113
+D AUTOSWITCHING POWER MUX
+K AUTOSWITCHING POWER MUX
+F https://www.tij.co.jp/jp/lit/gpn/tps2113
 $ENDCMP
 #
 $CMP TPS54531

@@ -61,7 +61,7 @@
     (property "ki_description" "100mA Low drop-out regulator, Fixed Output 5V, SOT-223, SOT-23" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "SOT?23* SOT?223*" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "SOT?23* SOT-223-6_TabPin3" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MCP1793-5002H_0_1"
